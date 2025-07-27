@@ -19,7 +19,7 @@ const Room = () => {
   const setUsername = roomContext?.setUsername;
   const [connected, setConnected] = useState<string>("Connecting...");
   const socketContext = useSocket();
-  const setSocket = socketContext?.setSocket;
+  // const setSocket = socketContext?.setSocket;
   const [roomCode, setRoomCode] = useState<string>("");
   const navigate = useNavigate();
   const { toast } = useToast();
