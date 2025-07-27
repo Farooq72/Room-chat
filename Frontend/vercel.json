@@ -1,9 +1,9 @@
 {
-  "rootDirectory": "Frontend",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": null,
-  "env": {
-    "VITE_WEBSOCKET_SERVER": "wss://room-chat-q3sa.onrender.com"
+  "projects": {
+    "frontend": {
+      "src": "Frontend",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
+    }
   }
 }
